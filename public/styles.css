@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background:  #008891;
+    padding: 0 16px;
+}
+
+.form {
+  margin-top: 10%;
+  margin-left: 30%;
+  width: 600px;
+  height: 260px;
+  border: 2px solid  #0f3057;
+  border-radius: 15px 15px;
+  padding-top: 10px;
+  background-color: #00587a;
+}
+
+.form input, select{
+  box-sizing: border-box;
+  padding: 0.3rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  width: 90%;
+  margin: auto 30px;
+}
+
+.form label {
+  margin: auto 30px;
+  font-size: 20px;
+  color: #e7e7de;
+  font-weight: bold;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 42%;
+}
+
+table {
+  border-spacing: 0;
+}
+
+.tableContainer {
+  overflow-y: scroll;
+  height: 300px;
+  width: 600px;
+  border: 2px solid  #0f3057;
+  color: #e7e7de;
+  font-size: 20px;
+  border-radius: 0 0 15px 15px;
+  border-right: none;
+}
+
+.productComponent {
+  margin-left: 30%;
+  text-align: center;
+  margin-top: 50px;
+  width: 600px;
+}
+
+.productComponent h2 {
+  background-color:  #e7e7de;
+  color: #0f3057;
+  border: 2px solid  #0f3057;
+  border-radius: 15px 15px 0 0;
+}
+
+td {
+  border: 2px solid  #0f3057;
+}
+
+td.tableProductName {
+  width: 450px;
+}
+
+td.tablePrice {
+  width: 80px;
+}
+
+td.tableStock {
+  width: 70px;
+}
+
+.tableHeader {
+  border: 2px solid  #0f3057;
+  color: #e7e7de;
+  font-size: 20px;
+  text-align: center;
+  border-spacing: 0;
+}
+
+.tableProductNameHeader {
+  width: 433px;
+}
+
+.tableStockHeader {
+  width: 83px;
+}
